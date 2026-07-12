@@ -15,4 +15,5 @@ wheels/
 
 # Data folder
 data/*
+!data/.gitkeep
 *.db
