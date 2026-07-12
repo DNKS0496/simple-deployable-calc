@@ -27,3 +27,4 @@ jobs:
         run: uv run pytest
         env:
           API_KEY: ${{ secrets.API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
